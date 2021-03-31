@@ -1,0 +1,72 @@
+body{
+	padding-top: 150px;
+	background: #eae7fa
+}
+
+.peresent{
+	width: 450px;
+	margin: 0 auto;
+}
+
+.top-box img{
+	position: relative;
+	padding: 0;
+	top: 0;
+	left: -2px;
+	margin: 0 0 -4px 0 ;
+	width: 454px;
+	height: 83px;
+	box-shadow: 1px 2px 4px rgba(0,0,0,1);
+	z-index: 1;
+	transition: all ease-out 0.5s;
+	
+}
+
+.box img{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 450px;
+	height: 320px;
+	box-shadow: 1px 2px 4px rgba(0,0,0,1);
+}
+
+
+.tabrik{
+	position: relative;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	height: 0;
+	transition: all ease-out 0.5s;
+}
+
+.tabrik h2{
+	padding: 0;
+	margin: 0;
+	font-family: hayat;
+	font-size: 50px;
+}
+
+.tabrik p{
+	padding: 0;
+	margin: 0;
+	font-family: hayat;
+	font-size: 20px;
+}
+.ali h5{
+	padding: 0;
+	margin: 0;
+	font-family: hayat;
+	font-size: 15px;
+	text-align: center;
+}
+.peresent:hover .top-box img{
+	top: -140px;
+	left: 12;
+	transform: rotateZ(10deg);
+}
+.peresent:hover .tabrik{
+	top: -120px;
+}
